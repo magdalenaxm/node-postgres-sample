@@ -36,6 +36,8 @@ sequelize.sync().then(() => {
 
 const app = express();
 
+console.log("Hallo 123")
+
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
